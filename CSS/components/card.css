@@ -1,0 +1,37 @@
+.cards {
+	display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+}
+
+.card {
+    background: #d24d4d;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 10px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+}
+
+.card img{
+	width: 350px;
+    border-radius: 10px;
+    margin:30px;
+}
+
+.card h3{
+	background: #751e1a;
+    flex-grow: 0;
+    padding: 13px;
+    border-radius: 4px;
+    text-align: center;
+}
+
